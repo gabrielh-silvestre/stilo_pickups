@@ -218,6 +218,7 @@ footer h2 {
 
 footer nav {
     display: flex;
+    align-items: center;
     justify-content: space-around;
 
     width: 100%;
@@ -378,6 +379,14 @@ ion-icon {
         width: 90%;
     }
 
+
+    /* -------------footer------------- */
+
+    footer {
+        justify-content: space-between;
+    
+        font-size: 0.8em;
+    }
 
     /* -------------general classes------------- */
 
