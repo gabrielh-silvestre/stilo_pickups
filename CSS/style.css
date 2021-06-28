@@ -278,3 +278,120 @@ ion-icon {
 
 
 /*----------------------querries----------------------*/
+
+@media screen and (max-width: 425px) {
+    /* -------------header------------- */
+
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+    
+        width: 100%;
+        height: 100px;
+    }
+    
+    header h1 {    
+        margin-top: 10px;
+
+        font-size: 2.6em;
+    }
+    
+    #menu {
+        margin: 15px;
+    }
+    
+    .menu_itens {    
+        font-size: 1.5em;
+    }
+
+
+    /* -------------spotlight------------- */
+    
+    #destaque {
+        padding-bottom: 0;
+    }
+
+    #destaque figure {    
+        width: 90%;
+    }
+    
+    #destaque img {
+        width: 100%;
+    }
+    
+    #destaque h2 {
+        font-size: 1.8em;
+    }
+
+
+    /* -------------brands------------- */
+    
+    #selecao_marcas ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        padding: 0;
+        margin: 0;
+    }
+    
+    .marcas {
+        flex-direction: column;
+        align-items: center;
+    
+        width: 80%;
+    
+        font-size: 1.4em;
+    }
+
+
+    /* -------------about us------------- */
+
+    .description_articles {
+        flex-direction: column;
+        align-items: center;
+    
+        font-size: 1.3em;
+    }
+
+    
+    .description_articles div{
+        width: 80%;
+
+        margin-bottom: 35px;
+    }
+    
+    #CEO_img {
+        flex-direction: column;
+        align-items: center;
+    
+        width: 100%;
+    }
+    
+    .img_plus_description {
+        margin-bottom: 15px;
+    }
+    
+    .img_plus_description img{
+        margin-bottom: 15px;
+
+        width: 90%;
+    }
+
+
+    /* -------------general classes------------- */
+
+    .sections_pattern {   
+        padding-bottom: 20px;
+    }
+    
+    .sections_titles {
+        font-size: 1.9em;
+
+        padding: 30px;
+    }
+
+}
+
+
+
